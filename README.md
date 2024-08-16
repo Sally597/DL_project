@@ -60,7 +60,10 @@ YOLOv8 & Mediapipe
 최종 모델
 ---
 - Mean Validation Accuracy: 85.52%, Test Accuracy: 91.43%
-![image](https://github.com/user-attachments/assets/1801e892-b9f8-43a0-b26c-4c312160d079) |![image](https://github.com/user-attachments/assets/3b8783a5-9ad7-4603-9647-1d512ec98625) |![image](https://github.com/user-attachments/assets/dea921a9-2b0f-483c-9943-13fba02bda3d)|
+<img src="https://github.com/user-attachments/assets/1801e892-b9f8-43a0-b26c-4c312160d079" alt="image1" width="200"/>
+<img src="https://github.com/user-attachments/assets/3b8783a5-9ad7-4603-9647-1d512ec98625" alt="image2" width="200"/>
+<img src="https://github.com/user-attachments/assets/dea921a9-2b0f-483c-9943-13fba02bda3d" alt="image3" width="200"/>
+
 
 
 모델 평가
