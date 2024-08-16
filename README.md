@@ -23,7 +23,7 @@ Introduction
 
 Mediapipe
 ---
-<span>문제1. 사람을 인식하는 속도가 지나치게 느림</span> <span style="margin-left: 50px;">문제2. 사람이 아닌 키오스크가 인식되는 문제</span>
+<span>문제1. 사람을 인식하는 속도가 지나치게 느림</span> <span style="margin-left: 150px;">문제2. 사람이 아닌 키오스크가 인식되는 문제</span>
 
 
 
