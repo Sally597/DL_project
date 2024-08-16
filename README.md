@@ -13,8 +13,7 @@ Introduction
 
 프로젝트 진행 순서
 ---
-![Blank diagram](https://github.com/user-attachments/assets/35a56547-a196-4588-aa8d-f85cc90c4ab5)
-
+![Blank diagram2](https://github.com/user-attachments/assets/28f462b8-b19d-43b9-8eb0-2adf7e18ae26)
 
 데이터 수집 & 소개
 ---
