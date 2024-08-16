@@ -24,8 +24,7 @@ Introduction
 Mediapipe
 ---
 <div style="display: flex; justify-content: space-between;">
-  <div>문제1. 사람을 인식하는 속도가 지나치게 느림</div>
-  <div>문제2. 사람이 아닌 키오스크가 인식되는 문제</div>
+  <div>문제1. 사람을 인식하는 속도가 지나치게 느림</div>        <div>문제2. 사람이 아닌 키오스크가 인식되는 문제</div>
 </div>
 
 
