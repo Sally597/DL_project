@@ -23,12 +23,45 @@ Introduction
 
 Mediapipe
 ---
+문제1. 사람을 인식하는 속도가 지나치게 느림
+![image](https://github.com/user-attachments/assets/68ff6e6c-a25f-41b5-a823-77f5e7b9167f)
+- 영상이 시작되고 10초가 지났는데도 인식이 안됨
+  
+문제2. 사람이 아닌 키오스크가 인식되는 문제
+![image](https://github.com/user-attachments/assets/9fcdbce1-6889-42a4-8d8e-9069471f0e95)
 
 YOLOv8 & Mediapipe
 ---
+해결:  YOLOv8로 사람을 탐지한 후, MediaPipe로 Landmark로 지정
+![image](https://github.com/user-attachments/assets/77779b92-5a5a-4352-8814-ff417703d1d0)
+- YOLOv8 + MediaPipe 함께 사용 시 영상 시작과 동시에 인식
+
+![image](https://github.com/user-attachments/assets/cce2ec79-959b-4fa5-b633-82bdcf554b7c)
+- 키오스크가 아닌 사람을 인식
 
 하이퍼파라미터 튜닝
 ---
+1. Data Split
+   - Train Test Split → 학습 전 Train, Test Set을 8:2로 split
+   - K-fold Cross Validation → K-fold Cross Validation을 이용하여 (cv=5) Train Set을 다시 Train, Validation Set으로 나눔
+
+2. 데이터 증강 (Train Set에만 적용)
+   - 1. x, z 좌표 반전 : x 좌표는 좌우 대칭, z 좌표는 깊이 반전
+     2. 노이즈 추가 : 평균이 0이고 표준편차가 0.1인 정규분포에서, 무작위 값을 추출하여 더함
+     3. 무작위 시프트 : 각 좌표 값에 -0.01에서 0.01 사이의 무작위 값을 더함
+
+3. 오버피팅 방지
+   - 1. 양방형 LSTM : 시퀀스를 양쪽 방향으로 처리
+     2. 배치 정규화 : 각 배치마다 평균과 표준편차를 이용하여 데이터를 정규화
+     3. 학습률 스케일링 : 학습 과정에서 학습률을 동적으로 조절
+
+4. 최적 파라미터 → learning_Rate:0.0000275, batch_size:32,  num_epochs: 250, hidden_size: 256, num_layers: 2, dropout: 0.2
+
+최종 모델
+---
+- Mean Validation Accuracy: 85.52%, Test Accuracy: 91.43%
+![image](https://github.com/user-attachments/assets/1801e892-b9f8-43a0-b26c-4c312160d079) ![image](https://github.com/user-attachments/assets/3b8783a5-9ad7-4603-9647-1d512ec98625) ![image](https://github.com/user-attachments/assets/dea921a9-2b0f-483c-9943-13fba02bda3d)
+
 
 모델 평가
 ---
