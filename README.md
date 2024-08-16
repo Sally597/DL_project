@@ -37,6 +37,12 @@ Mediapipe
 YOLOv8 & Mediapipe
 ---
 해결:  YOLOv8로 사람을 탐지한 후, MediaPipe로 Landmark로 지정
+<br>
+<br>
+<img src="https://github.com/user-attachments/assets/77779b92-5a5a-4352-8814-ff417703d1d0" alt="image1" width="300"/>
+<img src="https://github.com/user-attachments/assets/cce2ec79-959b-4fa5-b633-82bdcf554b7c" alt="image2" width="300"/>
+<br>
+- YOLOv8 + MediaPipe 함께 사용 시 영상 시작과 동시에 인식&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 키오스크가 아닌 사람을 인식
 ![image](https://github.com/user-attachments/assets/77779b92-5a5a-4352-8814-ff417703d1d0)
 - YOLOv8 + MediaPipe 함께 사용 시 영상 시작과 동시에 인식
 
