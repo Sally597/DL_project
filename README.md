@@ -69,6 +69,7 @@ YOLOv8 & Mediapipe
 ---
 
 •	최종 모델을 Test Set의 Landmark CSV 파일에 적용하여 최종 예측 라벨 도출
+
 •	해당 라벨과 예측 확률을 영상에 고정하여 시각화
 
 ![image](https://github.com/user-attachments/assets/0afd8000-597b-49b4-936d-9726a37a6074)
