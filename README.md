@@ -23,6 +23,8 @@ Introduction
 
 Mediapipe
 ---
+![image](https://github.com/user-attachments/assets/2c9608d9-64b7-4461-af09-125aa0a1c9a2)
+
 문제1. 사람을 인식하는 속도가 지나치게 느림
 <br>
 <br>
