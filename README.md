@@ -13,7 +13,8 @@ Introduction
 
 프로젝트 진행 순서
 ---
-![image](https://github.com/user-attachments/assets/fdd89442-66a8-47b3-8b15-7512266b6989)
+![Blank diagram2](https://github.com/user-attachments/assets/72a0beef-195f-43e4-bcb6-0fdaa57b2d9b)
+
 
 
 데이터 수집 & 소개
@@ -24,7 +25,8 @@ Introduction
 
 Mediapipe
 ---
-![image](https://github.com/user-attachments/assets/fc5a8312-3732-4334-9840-5070a8ca63ef)
+![image](https://github.com/user-attachments/assets/90af49cb-dc06-4df8-ac46-4630f3052659)
+
 
 
 YOLOv8 & Mediapipe
