@@ -34,7 +34,8 @@ YOLOv8 & Mediapipe
 해결:  YOLOv8로 사람을 탐지한 후, MediaPipe로 Landmark로 지정
 <br>
 <br>
-![Slide1](https://github.com/user-attachments/assets/32611cdc-3a89-4b0c-9595-ebcecba69e99)
+![image](https://github.com/user-attachments/assets/cb81ed9c-ce26-4c3d-bee7-3698a305d06e)
+
 
 
 하이퍼파라미터 튜닝
