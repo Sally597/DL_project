@@ -23,18 +23,8 @@ Introduction
 
 Mediapipe
 ---
-![image](https://github.com/user-attachments/assets/2c9608d9-64b7-4461-af09-125aa0a1c9a2)
+![image](https://github.com/user-attachments/assets/fc5a8312-3732-4334-9840-5070a8ca63ef)
 
-문제1. 사람을 인식하는 속도가 지나치게 느림
-<br>
-<br>
-![image](https://github.com/user-attachments/assets/68ff6e6c-a25f-41b5-a823-77f5e7b9167f) <br>
-- 영상이 시작되고 10초가 지났는데도 인식이 안됨
-  
-문제2. 사람이 아닌 키오스크가 인식되는 문제
-<br>
-<br>
-![image](https://github.com/user-attachments/assets/9fcdbce1-6889-42a4-8d8e-9069471f0e95)
 
 YOLOv8 & Mediapipe
 ---
