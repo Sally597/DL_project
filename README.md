@@ -93,7 +93,8 @@ YOLOv8 & Mediapipe
 
 •	해당 라벨과 예측 확률을 영상에 고정하여 시각화
 
-![image](https://github.com/user-attachments/assets/0afd8000-597b-49b4-936d-9726a37a6074)
+![image](https://github.com/user-attachments/assets/a08c26df-c0ac-4900-8fc6-da6d0b40d989)
+
 
 비즈니스 효과
 ---
